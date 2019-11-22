@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap')
+
+::-webkit-input-placeholder {color:#ededed;}
+::-moz-placeholder          {color:#ededed;}
+:-moz-placeholder           {color:#ededed;}
+:-ms-input-placeholder      {color:#ededed;}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f3f4;
+
+  font-family: 'Odibee Sans', cursive;
+}
+
+.header {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header__article {
+  width: 100;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header__article-text {
+  margin: 0px;
+
+  font-size: 90px;
+  font-weight: lighter;
+  color: #ead9da;
+}
+
+.page-title span {
+  font-size: 170px;
+  color: #e9d5d6;
+  font-weight: 100;
+  font-stretch: condensed;
+}
+
+.body-list {
+  margin-top: 15px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 12px 1px #131413;
+  border-radius: 2px;
+  position: relative;
+}
+
+.email-form {
+  box-sizing: border-box;
+  width: 100%;
+  height: 70px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border: 0;
+  border-bottom: 1px solid #e9e9e9;
+  outline: none;
+
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 24px;
+  font-weight: 100;
+  padding-left: 50px;
+  color: #a57a7c;
+
+}
+
+.list {
+
+}
+
+.item {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid gainsboro;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.item_entered {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid gainsboro;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.address {
+  margin: auto 0;
+  text-align: start;
+  vertical-align: middle;
+}
+
+.circle {
+  display: inline-block;
+  margin: auto;
+  margin-left: 24px;
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+  vertical-align: middle;
+  border: 2px solid #5f5f5f;
+  border-radius: 100%;
+  opacity: 0.5;
+}
+
+.empty-address {
+  display: block;
+  margin: auto;
+  margin-left: 116px;
+
+  font-size: 34px;
+  font-weight: 100;
+  color: #5f5f5f;
+}
+
+.email {
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+
+  font-size: 34px;
+  font-weight: 100;
+  color: #5f5f5f;
+}
+
+.remove {
+  margin: auto;
+  margin-right: 24px;
+}
+
+.remove img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.counter {
+  width: 100%;
+  height: 35px;
+  vertical-align: middle;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.counter span {
+  font-size: 14px;
+  font-weight: 100;
+  color: grey;
+}
+
+.error {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: -30px;
+  display: none;
+}
+
+.error span{
+  color: red;
+  font-size: 25px;
+}
+
+.visibility {
+  display: block;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Topic9 task2</title>
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__article">
+      <h1 class="header__article-text">Email list</h1>
+    </div>
+  </header>
+  <section class="list">
+    <div class="body-list">
+      <div class="error" id="invalidEmail">
+        <span>Please enter a valid Email</span>
+      </div>
+      <div class="error" id="duplicateEmail">
+        <span>This Email address is already in the list</span>
+      </div>
+      <input type="text" class="email-form" id="input" placeholder="Type here to add new Email"
+        onchange="addEmail(value)" oninput="removeErr()">
+      <div id="list" class="list">
+        <div id="isEmpty" class="item">
+          <div class="address">
+            <span class="empty-address">There is no adresses...</span>
+          </div>
+          <div class="remove">
+          </div>
+        </div>
+      </div>
+      <div class="counter">
+        <span id="counter">0 items left</span>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</body>
+
+</html>
